@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  background-color: azure;
   font-family: Helvetica;
 }
 
@@ -119,4 +118,45 @@ img {
 
  .title h3 {
    padding: .20rem;
+ }
+
+ /*More info section*/
+
+ #info {
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 3rem;
+ }
+ .moreinfo {
+   width: 35%;
+   margin-right: 5%;
+ }
+
+ .moreinfo h2 {
+   width: 10rem;
+   background-color: cadetblue;
+   padding: .5rem 1.25rem;
+ }
+
+ p {
+   margin-top: 1rem;
+   line-height: 1.25rem;
+ }
+
+ /*Footer*/
+
+ footer {
+   display:flex;
+   align-items: center;
+   background-color: azure;
+   margin-top: 5rem;
+ }
+
+ footer img {
+   height: 1.5rem;
+   padding: 4rem 1rem 4rem 4rem;
+ }
+
+ footer p {
+   margin: 0;
  }
